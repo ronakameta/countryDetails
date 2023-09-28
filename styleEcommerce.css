@@ -1,0 +1,134 @@
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+body{
+    background-color: rgb(74, 73, 73);
+}
+
+.header{
+    background-color: black;
+    color: whitesmoke;
+    height: 90px;
+    
+}
+
+.header-components{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    padding: 22px;   
+    font-size: 1.2rem;
+}
+
+.tag{
+    font-size: 1.5rem;
+}
+
+.buttonList{
+    display: flex;
+    list-style: none;
+
+}
+
+li{
+    margin-right: 20px;
+}
+
+.header-input{
+    width: 400px;
+    height: 38px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.select-search{
+    
+    width: 82px;
+    height: 38px;
+    background-color: rgb(74, 74, 74);
+    color: aliceblue;
+    border-radius: 4px;
+
+
+}
+
+.country-card{
+    height: 350px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgb(17, 18, 19);
+    transition: 0.3s;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(240, 248, 255);
+
+}
+
+
+.country-card:hover {
+    box-shadow: 0 20px 40px 0 rgb(12, 12, 12);   
+  
+}
+
+
+.container-countries{
+    margin: 30px 30px 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.flag{
+    height: 40%;
+
+}
+
+.flag-img{
+    height: 100%;
+    width: 100%;
+}
+
+.country-data{
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    
+}
+
+span{
+    margin-bottom: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.modal{
+    margin-top: 30px;
+    margin-left: 500px;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    border: 1px solid black;
+    z-index: 1;
+    background-color: white;
+     box-shadow: 0 20px 30px 0 rgb(12, 12, 12); 
+}
+
+.overlay{
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+}
+
+.close{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
